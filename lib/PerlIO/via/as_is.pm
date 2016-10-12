@@ -21,7 +21,7 @@ sub WRITE {
 1;
 # ABSTRACT: PerlIO layer that passes everything as-is
 
-=for Pod::Coverage ^()$
+=for Pod::Coverage ^(FILL|PUSHED|WRITE)$
 
 =head1 SYNOPSIS
 
